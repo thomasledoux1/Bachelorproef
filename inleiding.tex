@@ -5,15 +5,6 @@
 \chapter{Inleiding}
 \label{ch:inleiding}
 
-
-\section{Stand van zaken}
-\label{sec:stand-van-zaken}
-
-%% TODO: deze sectie (die je kan opsplitsen in verschillende secties) bevat je
-%% literatuurstudie. Vergeet niet telkens je bronnen te vermelden!
-
-Er zijn momenteel al veel technieken ontwikkeld en opgelijst door \textcite{google} om de grootte van applicaties voor Android te beperken. Er bestaat echter geen studie die het effect van deze technieken aantoont op de grootte van de applicaties en de performantie van de applicaties. Er bestaan ook bepaalde tools om de code van de applicatie te optimaliseren, zoals Proguard. ProGuard is de populairste optimalizator voor Java bytecode. De tool kan Java en Android applicaties tot 90 procent kleiner maken en tot 20 procent sneller. ProGuard voorziet ook minimale bescherming tegen reverse engineering door het  verdoezelen van de namen van klassen, velden en methodes.
-
 \section{Probleemstelling en Onderzoeksvragen}
 \label{sec:onderzoeksvragen}
 
@@ -24,8 +15,7 @@ Er zijn momenteel al veel technieken ontwikkeld en opgelijst door \textcite{goog
 %% Wees zo concreet mogelijk bij het formuleren van je
 %% onderzoeksvra(a)g(en). Een onderzoeksvraag is trouwens iets waar nog
 %% niemand op dit moment een antwoord heeft (voor zover je kan nagaan).
-De voorbije jaren hebben wearable devices meer en meer aan belang gewonnen in het dagelijks leven. Volgens onderzoek van IDC\cite{apew} werd het aantal verkochte wearable devices wereldwijd geschat op 20.1 miljoen, waarvan 22.9 procent Android Wear als operating system gebruikt. IDC voorspelt tegen 2020 dat er 54.6 miljoen wearable devices verkocht zullen worden, waarvan 41.8 procent Android Wear als operating system zal gebruiken. Elk noemenswaardig bedrijf heeft tegenwoordig een app laten ontwikkelen die ook op wearable devices kan gebruikt worden om zoveel mogelijk van deze mobiele gebruikers te bereiken. Hiermee gaat echter gepaard dat gebruikers meer en meer apps willen installeren op hun wearables, terwijl deze slechts over een beperkte schijfruimte beschikken. Daarom moeten de ontwikkelaars van deze mobiele applicaties ervoor zorgen dat de grootte van hun applicaties zoveel mogelijk beperkt wordt, zodat mobiele toestellen niet zonder vrije schijfruimte komen te staan. Een bijkomend probleem voor de bedrijven is dat gebruikers een beperktere set van apps zullen installeren, en er dus een grotere kans is dat sommige apps niet meer geïnstalleerd worden en er dus minder omzet wordt behaald. De bedrijven die mobiele apps laten ontwikkelen, zullen hier rekening mee moeten houden en bijvoorbeeld meer diensten in de cloud moeten aanbieden, om zo de lokaal gebruikte schijfruimte te beperken. Om dit na te gaan, zal onderzoek gedaan worden naar de applicaties van enkele van de populairste en meestgebruikte apps, zoals Spotify, Tinder en WhatsApp. In het onderzoek zal de focus gelegd worden op de gebruikte technieken bij ontwikkeling voor Android Wear
-
+In deze bachelorproef worden verschillende technieken beschreven en vergeleken om de grootte van apps voor Android Wear te beperken. Er werd voor Android Wear gekozen omdat dit een open-source platform is. De belangrijkste pijlers van open-source zijn dat open-source software vrij kan gedistribueerd worden en dat de source code beschikbaar wordt gesteld volgens \textcite{Open Source Initiative} . Dit vergemakkelijkt het onderzoek doordat er in de broncode kan gekeken worden welke technieken precies gebruikt worden, en op welke manier deze geïmplementeerd worden. Android Wear toestellen beschikken vaak maar over een beperkte opslagruimte, waardoor elke megabyte vrije ruimte telt. De eindgebruikers van de apps hebben hier dus het meest directe effect van, zij zullen kunnen profiteren van de vrijgekomen ruimte door de compressie van de apps. Maar ook voor bedrijven en hun app-ontwikkelaars is dit belangrijk, wanneer hun Android Wear app niet te veel schrijfruimte inneemt op het toestel van de eindgebruikers, zullen zij minder snel geneigd zijn deze app te verwijderen. Wanneer ze de app wel zouden verwijderen ontloopt het bedrijf belangrijke inkomsten uit in-app purchases en eventuele reclame-inkomsten. Het vergelijken van de verschillende technieken zal gebeuren op verschillende vlakken : Zijn er veel media-bestanden aanwezig in de applicatie? Is er veel code aanwezig in de applicatie? Zijn er meerdere APK's voorzien?
 
 \section{Opzet van deze bachelorproef}
 \label{sec:opzet-bachelorproef}
@@ -41,6 +31,6 @@ De voorbije jaren hebben wearable devices meer en meer aan belang gewonnen in he
 %% TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 
 %%In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
-
+Om dit onderzoek te ondersteunen zal een proof-of-concept app gecreërd worden voor Android Wear. Op deze app zullen dan de verschillende technieken toegepast worden, en zal het effect van deze technieken vergeleken en besproken worden. Er wordt ook een literatuurstudie uitgevoerd waarin zal besproken worden wat Android Wear precies inhoudt, en waar de verschillende compressietechnieken besproken worden. Er zal ook gekeken worden of er al dan niet een verband is tussen de compressie van de apps en de prestatie ervan op vlak van geheugengebruik. Nadien zullen de resultaten van het onderzoek besproken worden. Tot slot volgt een samenvattende conclusie van het onderzoek. 
 
 
