@@ -1,13 +1,13 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'bachproef-tin.blg'
-[59] biber-MSWIN64:303> INFO - === 
-[115] Biber.pm:359> INFO - Reading 'bachproef-tin.bcf'
-[301] Biber.pm:835> INFO - Found 8 citekeys in bib section 0
-[322] Biber.pm:3670> INFO - Processing section 0
-[351] Biber.pm:3840> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[362] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[440] bibtex.pm:1292> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[442] Utils.pm:164> WARN - Entry Open does not parse correctly
-[467] Utils.pm:180> ERROR - BibTeX subsystem: C:\Users\ledou\AppData\Local\Temp\H_pxQ0yTSW\bachproef-tin.bib_14408.utf8, line 30, syntax error: found "Source", expected ","
-[467] Biber.pm:109> INFO - WARNINGS: 1
-[468] Biber.pm:113> INFO - ERRORS: 1
+[34] biber-MSWIN64:303> INFO - === 
+[62] Biber.pm:359> INFO - Reading 'bachproef-tin.bcf'
+[178] Biber.pm:835> INFO - Found 8 citekeys in bib section 0
+[197] Biber.pm:3670> INFO - Processing section 0
+[223] Biber.pm:3840> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[230] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[298] bibtex.pm:1292> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[299] Utils.pm:164> WARN - Entry Open does not parse correctly
+[313] Utils.pm:180> ERROR - BibTeX subsystem: C:\Users\ledou\AppData\Local\Temp\Ykro17fVRr\bachproef-tin.bib_17296.utf8, line 30, syntax error: found "Source", expected ","
+[313] Biber.pm:109> INFO - WARNINGS: 1
+[314] Biber.pm:113> INFO - ERRORS: 1

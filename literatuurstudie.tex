@@ -12,8 +12,8 @@ Android Wear is Google's platform voor wearables. Een wearable worden beschreven
 \textcite{Techradar} heeft enkele van de belangrijkste kenmerken van Android Wear opgelijst.
 Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in het achterhoofd. Het maakt de toegang tot enkele van uw smartphone's makkelijkste functionaliteiten zo makkelijk als naar beneden kijken naar uw pols. Het is vooral bedoeld om de notificaties van uw smartphone makkelijk te weergeven zodat niet elke keer gezocht moet worden naar de smartphone in de broekzak. Gebaseerd op uw Google zoekopdrachten zullen real-time scores van uw favoriete sportteam, verkeerdscondities of afspraken in uw afgenda weergeven worden. Als het Android Wear toestel NFC (Near Field Communication) ingebouwd heeft, kan er in verschillende landen (momenteel Australië, Hong Kong, Ierland, Japan, Nieuw-Zeeland, Polen, Singapore, Verenigd Koninkrijk en de Verenigde Staten volgens de support van \cite{Androidpay}) ook met de wearable betaald worden via Android Pay. Ook spraakherkenning kon niet ontbreken in de Android Software. Door deze technologie kan je de wearable's spraakherkenning activeren door "OKay, Google" te zeggen of door de aanknop ingedrukt te houden. Google Assistant zal u hierop verderhelpen. Android Wear is compatibel met smartphones die draaien op Android 4.3 of hoger en iOS 9 of hoger. Eén van de belangrijkste app categorieën op Android Wear zijn de gezondheidsapps. Hiervoor wordt standaard gebruik gemaakt van Google Fit. Met Google Fit kan je kiezen tussen verschillende workouts tijdens het sporten, of bijvoorbeeld een dagelijks doel instellen voor het aantal stappen dat u wil nemen.  
 \begin{figure}[h]
-	\caption{Enkele voorbeelden van smartwatches gebruikmakend van Android Wear}
-	\includegraphics[width=15cm]{img/WearExamples}\\[.5cm]
+	\caption{\textit{Enkele voorbeelden van smartwatches gebruikmakend van Android Wear}}
+	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/WearExamples}\\[.5cm]
 	\centering
 \end{figure}
 %% TODO:
@@ -47,6 +47,11 @@ Deze map zal gebruikt worden voor alle bestandonderdelen die niet als Android-ty
 \item \textbf{META-INF/}\newline
 Deze map is aanwezig in ondertekende APKs en bevat een lijst van alle bestanden in de APK met hun handtekening. Momenteel werkt het ondertekenen van bestanden in Android door het verifiëren van de handtekening tegen de ongecomprimeerde bestandinhoud van het archief, één voor één. Dit heeft enkele interessante gevolgen. Doordat elke onderdeel van een ZIP bestand apart opgeslagen wordt, betekent dit dat je individuele bestanden hun compressieniveau kan aanpassen zonder ze opnieuw te ondertekenen. De verificatie van de handtekening zal echter falen wanneer een bestand verwijderd wordt uit het archief nadat het ondertekend werd. 
 \end{enumerate}
+\begin{figure}[h]
+	\caption{\textit{De structuur van de APK}}
+	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/ApkStructure}\\[.5cm]
+	\centering
+\end{figure}
 
 \section{Verschillende compressietechnieken} \cite{googlereduceapksize}
 \label{sec:compressietechnieken}
@@ -69,7 +74,11 @@ Vanaf Android 4.4 worden verschillende schermdichtheden ondersteund (ldpi, mdpi,
 \subsubsection{Verminder animatie frames }
 \label{sec:reduceanimationframes}
 Voor elke frame in een animatie wordt een aparte afbeelding opgeslaan. Als er bijvoorbeeld een animatie aanwezig is met 30 FPS (frames per second) zullen er 30 afbeeldingen opgeslagen worden, maar vaak is bijvoorbeeld 15 FPS meer dan voldoende, en wordt dus de helft van de ingenomen opslagruimte gebruikt.
-
+\begin{figure}[h]
+	\caption{\textit{Door vermindering FPS zullen minder aparte afbeeldingen per animatie opgeslagen worden}\newline}
+	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/animation-frames}\\[.5cm]
+	\centering
+\end{figure}
 \subsubsection{Hergebruik resources }
 \label{sec:reuseresources}
 Het is mogelijk om voor elke variatie op een afbeelding (getint, met schaduw of geroteerd) een aparte resource op te slaan. Google raadt echter aan om 1 afbeelding te voorzien, en deze dynamisch tijdens runtime aan te passen. 
@@ -77,6 +86,7 @@ Android voorziet verschillende utiliteiten om de kleur van een afbeelding aan te
 \subsubsection{Comprimeer afbeeldingen }
 \label{sec:compressimages}
 De aapt tool kan de afbeelding resources in res/drawable/ optimaliseren met lossless compressie. De tool kan bijvoorbeeld een true-color PNG bestand dat niet meer dan 256 kleuren bevat omzetten naar een 8-bit PNG met een kleurenpallet. Dit resulteert in een afbeelding van eenzelfde kwaliteit maar met een kleinere geheugenvoetafdruk. Deze tool kan geen PNG bestanden in de asset/ folder verkleinen. 
+
 \subsubsection{Gebruik WebP bestandformaat }
 \label{sec:webp}
 In plaats van PNG of JPEG bestanden, kan er ook gebruik gemaakt worden van het WebP formaat voor afbeeldingen. Dit formaat voorziet lossless compressie (zoals JPEG) en transparantie (zoals PNG) maar voorziet betere compressie dan beide andere formaten. Het gebruik van WebP heeft echter ook enkele nadelen. WebP-ondersteuning is niet beschikbaar bij versies lager dan Android 3.2 (API level 13). Het neemt ook een langere tijd voor het systeem om WebP bestanden te decoderen dan PNG bestanden. Bestaande BPM, JPG, PNG of statische GIF afbeeldingen kunnen naar het WebP formaat omgezet worden door Android Studio. 

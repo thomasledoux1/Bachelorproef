@@ -24,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Wat is een APK en uit wat bestaat dit?}{14}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Verschillende compressietechnieken}{16}{section.3.3}
+\contentsline {section}{\numberline {3.3}Verschillende compressietechnieken}{15}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Verklein resource aantal en grootte}{16}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
@@ -36,31 +36,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Verminder animatie frames }{16}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hergebruik resources }{16}{section*.8}
+\contentsline {subsubsection}{Hergebruik resources }{17}{section*.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Comprimeer afbeeldingen }{17}{section*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Gebruik WebP bestandformaat }{17}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gebruik vector graphics }{17}{section*.11}
+\contentsline {subsubsection}{Gebruik vector graphics }{18}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Verminder gebruik code}{17}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Verminder gebruik code}{18}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verwijder automatisch gegenereerde code}{17}{section*.12}
+\contentsline {subsubsection}{Verwijder automatisch gegenereerde code}{18}{section*.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}Voorzie meerdere APK's}{18}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Verband tussen compressie en prestaties apps}{18}{section.3.4}
+\contentsline {section}{\numberline {3.4}Verband tussen compressie en prestaties apps}{19}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Resultaten}{19}{chapter.4}
+\contentsline {chapter}{\numberline {4}Resultaten}{21}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Vergelijking verschillende technieken}{19}{section.4.1}
+\contentsline {section}{\numberline {4.1}Vergelijking verschillende technieken}{21}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Invloed compressie op prestaties apps}{19}{section.4.2}
+\contentsline {section}{\numberline {4.2}Invloed compressie op prestaties apps}{21}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Testresultaten framework Brian Pinsard}{19}{section.4.3}
+\contentsline {section}{\numberline {4.3}Testresultaten framework Brian Pinsard}{21}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusie}{21}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusie}{23}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {maincolor}Bibliografie}}{21}{chapter.5}
+\contentsline {chapter}{\leavevmode {\color {maincolor}Bibliografie}}{23}{chapter.5}
 \contentsfinish 
