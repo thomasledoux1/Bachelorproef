@@ -2,7 +2,6 @@
 %% Literatuurstudie
 %%=============================================================================
 
-
 \chapter{Literatuurstudie}
 \label{ch:literatuurstudie}
 
@@ -11,10 +10,10 @@
 Android Wear is Google's platform voor wearables. Een wearable worden beschreven door \textcite{Dictionary} beschreven als een computer of geavanceerd elektronisch toestel dat geïncorporeerd is in een accessoire gedragen op het lichaam of in een kledingstuk. 
 \textcite{Techradar} heeft enkele van de belangrijkste kenmerken van Android Wear opgelijst.
 Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in het achterhoofd. Het maakt de toegang tot enkele van uw smartphone's makkelijkste functionaliteiten zo makkelijk als naar beneden kijken naar uw pols. Het is vooral bedoeld om de notificaties van uw smartphone makkelijk te weergeven zodat niet elke keer gezocht moet worden naar de smartphone in de broekzak. Gebaseerd op uw Google zoekopdrachten zullen real-time scores van uw favoriete sportteam, verkeerdscondities of afspraken in uw afgenda weergeven worden. Als het Android Wear toestel NFC (Near Field Communication) ingebouwd heeft, kan er in verschillende landen (momenteel Australië, Hong Kong, Ierland, Japan, Nieuw-Zeeland, Polen, Singapore, Verenigd Koninkrijk en de Verenigde Staten volgens de support van \cite{Androidpay}) ook met de wearable betaald worden via Android Pay. Ook spraakherkenning kon niet ontbreken in de Android Software. Door deze technologie kan je de wearable's spraakherkenning activeren door "OKay, Google" te zeggen of door de aanknop ingedrukt te houden. Google Assistant zal u hierop verderhelpen. Android Wear is compatibel met smartphones die draaien op Android 4.3 of hoger en iOS 9 of hoger. Eén van de belangrijkste app categorieën op Android Wear zijn de gezondheidsapps. Hiervoor wordt standaard gebruik gemaakt van Google Fit. Met Google Fit kan je kiezen tussen verschillende workouts tijdens het sporten, of bijvoorbeeld een dagelijks doel instellen voor het aantal stappen dat u wil nemen.  
-\begin{figure}[h]
+\begin{figure}[H]
+	\centering
 	\caption{\textit{Enkele voorbeelden van smartwatches gebruikmakend van Android Wear}}
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/WearExamples}\\[.5cm]
-	\centering
 \end{figure}
 %% TODO:
 %% Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde
@@ -47,17 +46,30 @@ Deze map zal gebruikt worden voor alle bestandonderdelen die niet als Android-ty
 \item \textbf{META-INF/}\newline
 Deze map is aanwezig in ondertekende APKs en bevat een lijst van alle bestanden in de APK met hun handtekening. Momenteel werkt het ondertekenen van bestanden in Android door het verifiëren van de handtekening tegen de ongecomprimeerde bestandinhoud van het archief, één voor één. Dit heeft enkele interessante gevolgen. Doordat elke onderdeel van een ZIP bestand apart opgeslagen wordt, betekent dit dat je individuele bestanden hun compressieniveau kan aanpassen zonder ze opnieuw te ondertekenen. De verificatie van de handtekening zal echter falen wanneer een bestand verwijderd wordt uit het archief nadat het ondertekend werd. 
 \end{enumerate}
-\begin{figure}[h]
+
+\begin{figure}[H]
+	\centering
 	\caption{\textit{De structuur van de APK}}
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/ApkStructure}\\[.5cm]
-	\centering
+	
 \end{figure}
 
-\section{Verschillende compressietechnieken} \cite{googlereduceapksize}
+\section{Verschillende compressietechnieken}
 \label{sec:compressietechnieken}
 
-\subsection{Verklein resource aantal en grootte}
-\label{sec:reduceresources}
+\subsubsection{Technieken gebruikt bij Cozmos, app-ontwikkelaar van Android (Wear) apps}
+Bij Cozmos is de belangrijkste tool die gebruikt wordt om de APK zo klein mogelijk te houden Proguard. Proguard zorgt er niet enkel voor dat je code moeilijker leesbaar wordt bij reverse engineering maar het verwijdert ook al je ongebruikte code en resources.
+Bij de grotere klanten waar ook security van groot belang is maken we gebruik van Dexguard. Dexguard is de commerciële variant van Proguard en gaat een stap verder met zijn compressietechnieken maar biedt daarnaast ook tal van andere features aan zoals bescherming van de APK of SDK (Software Development Kit) tegen het klonen ervan, piraterij en extractie van sleutelwaarden uit de APK door gebruik te maken van verschillende encryptie- en obfuscatietechnieken. Anderzijds beschermt Dexguard ook bescherming tegen Dynamic Analysis, zodat er tijdens dat de app actief is geen aanpassingen kunnen gebeuren door omgevings- en certificaatcontroles. 
+
+Eén van de andere manieren om de grootte van de APK te beperken die gebruikt wordt bij Cozmos is kijken naar de manier waarop images en andere resources gebruikt worden. Er kan al ruimte bespaard worden door een juiste keuze te maken tussen jpg/png en verdere compressie toe te passen. Soms is ook geen volledige image nodig maar kan er geopteerd worden voor een 9-patch image of om een drawable in XML te definieren. Bij animaties kan je dan weer het aantal frames gaan beperken.
+
+Bij het gebruik van libraries kan het handig zijn om enkel de modules in het project te importeren die ook daadwerkelijk nodig zijn. Ook worden verschillende libraries tegenover elkaar afgewogen en wordt gekeken welke de laagste method count hebben, het best met het geheugen omgaan, het minste plaats innemen.. Stel dat men een library aan het project zou willen toevoegen om images in te laden dan zou de afweging kunnen gemaakt worden tussen Glide en Picasso. Picasso is 3,5 keer kleiner dan Glide maar anderzijds gebruikt Glide een pak minder geheugen om een image weer te geven. Daar moet dus een afweging gemaakt worden waar de focus ligt voor de app, meer vrije opslagruimte of meer vrij geheugen.
+
+Een andere optie is om niet-essentiële zaken achterwege te laten uit je APK. Afbeeldingen of data die maar voor een beperkte groep gebruikers van belang zijn kunnen beter in realtime gedownload worden in plaats van deze al in de APK te voorzien.
+
+Verder kan er door middel van code zuiniger omgesprongen worden met opslagruimte. Zo dienen enums vermeden te worden, kan je (eenvoudige) afbeeldingen renderen..
+
+Uit de richtlijnen van \cite{googlereduceapksize} voor het verkleinen van de grootte van de APK werden volgende technieken gekozen om te onderzoeken: 
 
 \subsubsection{Verwijder ongebruikte resources}
 \label{sec:removeunusedresources}
@@ -74,10 +86,11 @@ Vanaf Android 4.4 worden verschillende schermdichtheden ondersteund (ldpi, mdpi,
 \subsubsection{Verminder animatie frames }
 \label{sec:reduceanimationframes}
 Voor elke frame in een animatie wordt een aparte afbeelding opgeslaan. Als er bijvoorbeeld een animatie aanwezig is met 30 FPS (frames per second) zullen er 30 afbeeldingen opgeslagen worden, maar vaak is bijvoorbeeld 15 FPS meer dan voldoende, en wordt dus de helft van de ingenomen opslagruimte gebruikt.
-\begin{figure}[h]
+\begin{figure}[H]
+	\centering
 	\caption{\textit{Door vermindering FPS zullen minder aparte afbeeldingen per animatie opgeslagen worden}\newline}
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/animation-frames}\\[.5cm]
-	\centering
+	
 \end{figure}
 \subsubsection{Hergebruik resources }
 \label{sec:reuseresources}

@@ -19,6 +19,17 @@
 
 \section{Invloed compressie op prestaties apps}
 \label{sec:invloedcompressie}
+\subsection{Aanpak bij Cozmos}
+Er wordt zeker gecontroleerd dat de performantie van de app goed zit. Bij het uitvoeren van network calls moet alles zo compact mogelijk zijn zodat een gebruiker ook onder een slechte verbinding kan blijven werken. Bij het tonen van meerdere afbeeldingen is het memory management zeer belangrijk om onder andere out of memory exceptions te vermijden. 
 
-\section{Testresultaten framework Brian Pinsard}
+Op welk vlak de performantie een invloed heeft hangt af van ieder geval op zich. Er kan gesteld worden dat er op 1 of meerdere van volgende punten verbetering merkbaar is:
+\begin{enumerate}
+	\setlength\itemsep{2em}
+\item Grootte beperken
+\item Geheugengebruik beperken
+\item Sneller laden
+\end{enumerate}
+Echt actief gaan monitoren welke prestatieverschillen een compressietechniek met zich meebrengt  daar is meestal de tijd niet voor. Het is pas wanneer er bij het testen zaken naar boven komen dat er echt wordt gekeken welke extra stappen er kunnen ondernomen worden en welke winst er geboekt wordt. Uiteraard worden bovenstaande technieken tijdens het developen in het achterhoofd gehouden zodat er een optimaal resultaat bekomen wordt.
+
+ \section{Testresultaten framework Brian Pinsard}
 \label{sec:invloedcompressie}
