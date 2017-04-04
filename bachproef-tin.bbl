@@ -1,0 +1,168 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{apa/global/}
+    \entry{Google}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2faba1973cae0a6da2425e78e96b5313}{%
+           family={David\bibnamedelima Singleton},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={VP\bibnamedelima Of\bibnamedelimb engineering\bibnamedelimb Android\bibnamedelima Wear},
+           giveni={V\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2faba1973cae0a6da2425e78e96b5313}
+      \strng{fullhash}{2faba1973cae0a6da2425e78e96b5313}
+      \strng{authornamehash}{2faba1973cae0a6da2425e78e96b5313}
+      \strng{authorfullhash}{2faba1973cae0a6da2425e78e96b5313}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://blog.google/products/android-wear/android-wear-20-make-most-every-minute/}}
+      \field{title}{Android Wear 2.0: Make the most of every minute}
+      \field{year}{2017}
+    \endentry
+    \entry{Dictionary}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d376e4d2e8e5b9bfa19b5c0aac29ce8}{%
+           family={Dictionary.com},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d376e4d2e8e5b9bfa19b5c0aac29ce8}
+      \strng{fullhash}{1d376e4d2e8e5b9bfa19b5c0aac29ce8}
+      \strng{authornamehash}{1d376e4d2e8e5b9bfa19b5c0aac29ce8}
+      \strng{authorfullhash}{1d376e4d2e8e5b9bfa19b5c0aac29ce8}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.dictionary.com/browse/wearable}}
+      \field{title}{Wearable definition}
+      \field{year}{2017}
+    \endentry
+    \entry{googlereduceapksize}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.android.com/topic/performance/reduce-apk-size.html}}
+      \field{title}{{Reduce APK size}}
+      \field{year}{2015}
+    \endentry
+    \entry{Androidpay}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://support.google.com/androidpay/answer/6314169?hl=en}}
+      \field{title}{Participating banks and supported cards for Android Pay}
+      \field{year}{2017}
+    \endentry
+    \entry{IDC}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9d96b2ecdfa471b9086fef8134e72096}{%
+           family={IDC\bibnamedelima Research},
+           familyi={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d96b2ecdfa471b9086fef8134e72096}
+      \strng{fullhash}{9d96b2ecdfa471b9086fef8134e72096}
+      \strng{authornamehash}{9d96b2ecdfa471b9086fef8134e72096}
+      \strng{authorfullhash}{9d96b2ecdfa471b9086fef8134e72096}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.idc.com/getdoc.jsp?containerId=prUS41736916}}
+      \field{title}{{Worldwide Smartwatch Market Will See Modest Growth in 2016 Before Swelling to 50 Million Units in 2020}}
+      \field{year}{2016}
+    \endentry
+    \entry{PCMag}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e49eaa3398425444c9889464862b91d0}{%
+           family={PCMag},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e49eaa3398425444c9889464862b91d0}
+      \strng{fullhash}{e49eaa3398425444c9889464862b91d0}
+      \strng{authornamehash}{e49eaa3398425444c9889464862b91d0}
+      \strng{authorfullhash}{e49eaa3398425444c9889464862b91d0}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.pcmag.com/encyclopedia/term/64037/apk}}
+      \field{title}{Definition of: APK}
+      \field{year}{2017}
+    \endentry
+    \entry{Techradar}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=eb8557fa4da89143605495387f0d3212}{%
+           family={Techradar},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb8557fa4da89143605495387f0d3212}
+      \strng{fullhash}{eb8557fa4da89143605495387f0d3212}
+      \strng{authornamehash}{eb8557fa4da89143605495387f0d3212}
+      \strng{authorfullhash}{eb8557fa4da89143605495387f0d3212}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.techradar.com/news/wearables/google-android-wear-what-you-need-to-know-1235025}}
+      \field{title}{Android Wear: everything you need to know}
+      \field{year}{2017}
+    \endentry
+  \endsortlist
+  \missing{Open Source Initiative}
+\endrefsection
+\endinput
+

@@ -11,6 +11,40 @@
 %% over het resultaat. Had je deze uitkomst verwacht? Zijn er zaken die nog
 %% niet duidelijk zijn? Heeft het ondezoek geleid tot nieuwe vragen die
 %% uitnodigen tot verder onderzoek?
-
+\begin{appendices}
+	\textbf{1. Worden bij Cozmos apps gecreëerd voor Android Wear? Zoja, zijn die dan standalone-apps of vooral apps die afhankelijk van de smartphone werken?}
+	
+	De projecten die we bij klanten doen starten tot nu toe altijd vanuit een gewone Android app. Klanten zoeken vaak een oplossing om hun interne processen te vereenvoudigen of ze willen aan hun klanten een app aanbieden.
+	Door het grotere scherm, meer rekenkracht en simpelweg het feit dat bijna iedereen een smartphone bezit ligt de focus volledig daarop. Uiteraard hebben we al een aantal Android Wear projecten gehad maar dit was steeds ter aanvulling op een smartphone app. Voorbeelden hiervan zijn o.a. het tonen van je saldo op je watch of het slagen/falen van een transactie weergeven op je watch.
+	
+	\textbf{2. Welke compressietechnieken worden gebruikt bij Cozmos om de grootte van de APK zo klein mogelijk te houden?}
+	
+	De belangrijkste tool om de grootte van een APK te beperken is Proguard. Proguard zorgt er niet enkel voor dat je code moeilijker leesbaar wordt bij reverse engineering maar het verwijdert ook al je ongebruikte code en resources.
+	Bij de grotere klanten waar ook security van groot belang is maken we gebruik van Dexguard. Dexguard is de commerciële variant van Proguard en gaat een stap verder met zijn compressietechnieken maar biedt daarnaast ook tal van andere features aan.
+	
+	Eén van de andere manieren om de grootte van je APK te gaan beperken is kijken naar de manier waarop je images en andere resources gaat gebruiken. Je kan al ruimte besparen door een juiste keuze te maken tussen jpg/png en verdere compressie toe te passen. Soms is ook geen volledige image nodig maar kan je opteren voor een 9-patch image of om een drawable in XML te definieren. Bij animaties kan je dan weer het aantal frames gaan beperken.
+	
+	Bij het gebruik van libraries kan het handig zijn om enkel de modules in je project te importeren die je ook daadwerkelijk nodig hebt. Ook kan het nuttig zijn om verschillende libraries tegenover elkaar af te wegen en te kijken welke de laagste method count hebben, het best met het geheugen omgaan, het minste plaats innemen, enz. Stel dat je een library aan je project zou willen toevoegen om images in te laden dan zou je de afweging kunnen maken tussen Glide en Picasso. Picasso is bijvoorbeeld 3,5 keer kleiner dan Glide maar anderzijds gebruikt Glide een pak minder geheugen om een image weer te geven. Dat zijn afwegingen die je moet maken.
+	
+	Een andere optie is om niet essentiële zaken achterwege te laten uit je APK. Afbeeldingen of data die maar voor een beperkte groep gebruikers van belang zijn kan je beter in realtime downloaden ipv. deze al in je APK te voorzien.
+	
+	Verder kan je ook door middel van je code zuiniger omspringen met storage. Zou dien je enums te vermijden, kan je (eenvoudige) images renderen, enzovoort. 
+	
+	Deze vraag kan natuurlijk vrij breed beantwoord worden. Er zijn waarschijnlijk nog wel andere dingen die ik nu over het hoofd zie maar ik denk dat bovenstaande al een goed beeld geeft. 
+	
+	\textbf{3. Wordt bij het gebruiken van compressietechnieken bij Cozmos ook gecontroleerd of deze compressie een effect heeft op de performantie van de app? Zoja, heeft u enig idee op welk vlak van performantie dit een invloed heeft en hoeveel dit een invloed heeft?}
+	
+	Er wordt zeker naar gekeken dat de performantie van de app goed zit. Bij het uitvoeren van network calls moet alles zo compact mogelijk zijn zodat een gebruiker ook onder een slechte verbinding kan blijven werken. Bij het tonen van meerdere afbeeldingen is het memory management zeer belangrijk om o.a. out of memory exceptions te vermijden. 
+	
+	Op welk vlak de performantie een invloed heeft hangt af van ieder geval op zich. Je kan stellen dat er op 1 of meerdere van volgende punten verbetering merkbaar is:
+	\begin{enumerate}
+		\item Grootte beperken
+		\item Geheugen gebruik beperken
+		\item Sneller laden
+	\end{enumerate}
+	
+	Echt actief gaan monitoren welke prestatieverschillen een compressietechniek met zich meebrengt  daar hebben we meestal de tijd niet voor. Het is pas wanneer er bij het testen dingen naar boven komen dat er echt wordt gekeken welke extra stappen we kunnen ondernemen en welke winst er geboekt wordt. Uiteraard worden bovenstaande technieken tijdens het developen in het achterhoofd gehouden zodat er een optimaal resultaat bekomen wordt.
+	
+\end{appendices}
 
 

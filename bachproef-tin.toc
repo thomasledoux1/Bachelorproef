@@ -6,11 +6,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Opzet van deze bachelorproef}{9}{section.1.2}
+\contentsline {section}{\numberline {1.2}Opzet van deze bachelorproef}{10}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Methodologie}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Creatie proof-of-concept app}{11}{section.2.1}
+\contentsline {section}{\numberline {2.1}Creatie proof-of-concept foto-app}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Verschillende technieken toepassen op proof-of-concept app}{12}{section.2.2}
 \defcounter {refsection}{0}\relax 
@@ -26,9 +26,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Verschillende compressietechnieken}{16}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Technieken gebruikt bij Cozmos, app-ontwikkelaar van Android (Wear) apps}{16}{section*.8}
+\contentsline {subsubsection}{Gebruik Proguard en Dexguard}{16}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verwijder ongebruikte resources}{17}{section*.9}
+\contentsline {subsubsection}{Verwijder ongebruikte resources}{16}{section*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Verklein resource gebruik van libraries}{17}{section*.10}
 \defcounter {refsection}{0}\relax 
@@ -48,21 +48,53 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Verwijder automatisch gegenereerde code}{19}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Voorzie meerdere APK's}{19}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Voorzie meerdere APK's}{20}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Verband tussen compressie en prestaties apps}{20}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Resultaten}{21}{chapter.4}
+\contentsline {section}{\numberline {3.5}Verschillende app-profielen Android Wear}{20}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Vergelijking verschillende technieken}{21}{section.4.1}
+\contentsline {subsection}{\numberline {3.5.1}Fitness-apps}{21}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Invloed compressie op prestaties apps}{21}{section.4.2}
+\contentsline {subsection}{\numberline {3.5.2}Foto-apps}{21}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Aanpak bij Cozmos}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {3.5.3}CPU-intensieve apps}{21}{subsection.3.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Testresultaten framework Brian Pinsard}{22}{section.4.3}
+\contentsline {chapter}{\numberline {4}Resultaten}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusie}{23}{chapter.5}
+\contentsline {section}{\numberline {4.1}Vergelijking verschillende technieken}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {maincolor}Bibliografie}}{23}{chapter.5}
+\contentsline {subsection}{\numberline {4.1.1}Foto-app}{23}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Fitness-app}{24}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}CPU-intensieve app}{25}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Invloed compressie op prestaties apps}{25}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Foto-app}{25}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Geheugengebruik}{25}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CPU-gebruik}{26}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Fitness-app}{26}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Geheugengebruik}{26}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CPU-gebruik}{27}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}CPU-intensieve app}{27}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Geheugengebruik}{27}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CPU-gebruik}{28}{section*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Testresultaten framework Brian Pinsard}{28}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusie}{29}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{31}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {maincolor}Bibliografie}}{35}{chapter*.37}
 \contentsfinish 

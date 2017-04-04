@@ -6,9 +6,9 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Scherm voor spraakherkenning}\relax }}{12}{figure.caption.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Hoofdscherm foto-app}\relax }}{12}{figure.caption.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \textit {Resultaat van spraakherkenning}\relax }}{12}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textit {Foto view}\relax }}{12}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -19,6 +19,24 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Door vermindering FPS zullen minder aparte afbeeldingen per animatie opgeslagen worden}\newline \relax }}{18}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op APK-grootte foto-app}\relax }}{24}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op APK-grootte fitness-app}\relax }}{24}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op APK-grootte CPU-intensieve app}\relax }}{25}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op geheugengebruik foto-app}\relax }}{25}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op CPU-gebruik foto-app}\relax }}{26}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op geheugengebruik fitness-app}\relax }}{26}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op CPU-gebruik fitness-app}\relax }}{27}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op geheugengebruik CPU-intensieve app}\relax }}{27}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textit {Resultaten verschillende compressietechnieken op CPU-gebruik CPU-intensieve app}\relax }}{28}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 
