@@ -1,17 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'bachproef-tin.blg'
-[32] biber-MSWIN64:303> INFO - === 
-[54] Biber.pm:359> INFO - Reading 'bachproef-tin.bcf'
-[143] Biber.pm:835> INFO - Found 8 citekeys in bib section 0
-[157] Biber.pm:3670> INFO - Processing section 0
-[174] Biber.pm:3840> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[179] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[272] bibtex.pm:1292> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[296] Utils.pm:164> WARN - I didn't find a database entry for 'Open Source Initiative' (section 0)
-[328] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[328] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[328] Biber.pm:3499> INFO - Sorting list 'apa/global/' of type 'entry' with scheme 'apa' and locale 'nl-NL'
-[328] Biber.pm:3505> INFO - No sort tailoring available for locale 'nl-NL'
-[337] bbl.pm:608> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
-[339] bbl.pm:712> INFO - Output to bachproef-tin.bbl
-[339] Biber.pm:109> INFO - WARNINGS: 1
+[59] biber-MSWIN64:303> INFO - === 
+[161] Biber.pm:359> INFO - Reading 'bachproef-tin.bcf'
+[246] Biber.pm:835> INFO - Found 8 citekeys in bib section 0
+[260] Biber.pm:3670> INFO - Processing section 0
+[313] Biber.pm:3840> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[321] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[412] bibtex.pm:1292> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[449] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[449] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[449] Biber.pm:3499> INFO - Sorting list 'apa/global/' of type 'entry' with scheme 'apa' and locale 'nl-NL'
+[449] Biber.pm:3505> INFO - No sort tailoring available for locale 'nl-NL'
+[456] bbl.pm:608> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
+[457] bbl.pm:712> INFO - Output to bachproef-tin.bbl

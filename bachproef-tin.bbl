@@ -121,6 +121,28 @@
       \field{title}{{Worldwide Smartwatch Market Will See Modest Growth in 2016 Before Swelling to 50 Million Units in 2020}}
       \field{year}{2016}
     \endentry
+    \entry{OpenSourceInitiative}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3008fd4251e8a94779d85de1e4745d52}{%
+           family={Initiative},
+           familyi={I\bibinitperiod},
+           given={Open\bibnamedelima Source},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3008fd4251e8a94779d85de1e4745d52}
+      \strng{fullhash}{3008fd4251e8a94779d85de1e4745d52}
+      \strng{authornamehash}{3008fd4251e8a94779d85de1e4745d52}
+      \strng{authorfullhash}{3008fd4251e8a94779d85de1e4745d52}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://opensource.org/osd-annotated}}
+      \field{title}{The Open Source Definition (Annotated)}
+      \field{year}{2017}
+    \endentry
     \entry{PCMag}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=e49eaa3398425444c9889464862b91d0}{%
@@ -162,7 +184,6 @@
       \field{year}{2017}
     \endentry
   \endsortlist
-  \missing{Open Source Initiative}
 \endrefsection
 \endinput
 

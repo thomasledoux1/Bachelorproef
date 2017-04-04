@@ -25,7 +25,7 @@ Legende technieken :
 	\item Techniek4 = Verklein grootte native binaries
 \end{enumerate}
 \subsection{Foto-app}
-Bij de eerste applicatie die getest werd, een foto-app die veel mediabestanden bevat, had vooral het gebruik van het WebP-formaat voor alle afbeeldingen een grootte invloed op de grootte van de APK. De andere technieken brachten op dit vlak geen verandering. Op vlak van het geheugengebruik van de applicatie tijdens runtime kon een minieme verandering opgemerkt worden na het toevoegen van de techniek ``Verklein resource gebruik van libraries``. Na de omzetting van de afbeeldingen naar het WebP-formaat verhoogde het CPU-gebruik met 9 procent. Dit wordt veroorzaakt doordat het genereren van de WebP-afbeeldingen meer CPU-kracht vergt.
+Bij de eerste applicatie die getest werd, een foto-app die veel mediabestanden bevat, had vooral het gebruik van het WebP-formaat voor alle afbeeldingen een grote invloed op de grootte van de APK. De andere technieken brachten op dit vlak geen verandering. Op vlak van het geheugengebruik van de applicatie tijdens runtime kon een minieme verandering opgemerkt worden na het toevoegen van de techniek ``Verklein resource gebruik van libraries``. Na de omzetting van de afbeeldingen naar het WebP-formaat verhoogde het CPU-gebruik met 9 procent. Dit wordt veroorzaakt doordat het genereren van de WebP-afbeeldingen meer CPU-kracht vergt.
 \begin{figure}[H]
 	\centering
 	\caption{\textit{Resultaten verschillende compressietechnieken op APK-grootte foto-app}}

@@ -7,9 +7,9 @@
 
 \section{Wat is Android Wear?}
 \label{sec:androidwear}
-Android Wear is Google's platform voor wearables. Een wearable wordt beschreven beschreven als een computer of geavanceerd elektronisch toestel dat geïncorporeerd is in een accessoire gedragen op het lichaam of in een kledingstuk. \autocite{Dictionary}
+Android Wear is Google's platform voor wearables. Een wearable wordt beschreven als een computer of geavanceerd elektronisch toestel dat geïncorporeerd is in een accessoire gedragen op het lichaam of in een kledingstuk. \autocite{Dictionary}
 \autocite{Techradar} heeft enkele van de belangrijkste kenmerken van Android Wear opgelijst.
-Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in het achterhoofd. Het maakt de toegang tot enkele van uw smartphone's makkelijkste functionaliteiten zo makkelijk als naar beneden kijken naar uw pols. Het is vooral bedoeld om de notificaties van uw smartphone makkelijk te weergeven zodat niet elke keer gezocht moet worden naar de smartphone in de broekzak. Gebaseerd op uw Google zoekopdrachten zullen real-time scores van uw favoriete sportteam, verkeerdscondities of afspraken in uw afgenda weergeven worden. Als het Android Wear toestel NFC (Near Field Communication) ingebouwd heeft, kan er in verschillende landen (momenteel Australië, Hong Kong, Ierland, Japan, Nieuw-Zeeland, Polen, Singapore, Verenigd Koninkrijk en de Verenigde Staten) ook met de wearable betaald worden via Android Pay. \autocite{Androidpay} Ook spraakherkenning kon niet ontbreken in de Android Software. Door deze technologie kan je de wearable's spraakherkenning activeren door "OKay, Google" te zeggen of door de aanknop ingedrukt te houden. Google Assistant zal u hierop verderhelpen. Android Wear is compatibel met smartphones die draaien op Android 4.3 of hoger en iOS 9 of hoger. Eén van de belangrijkste app categorieën op Android Wear zijn de gezondheidsapps. Hiervoor wordt standaard gebruik gemaakt van Google Fit. Met Google Fit kan je kiezen tussen verschillende workouts tijdens het sporten, of bijvoorbeeld een dagelijks doel instellen voor het aantal stappen dat u wil nemen.  
+Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in het achterhoofd. Het maakt de toegang tot enkele van uw smartphone's makkelijkste functionaliteiten zo makkelijk als naar beneden kijken naar uw pols. Het is vooral bedoeld om de notificaties van uw smartphone makkelijk te weergeven zodat niet elke keer gezocht moet worden naar de smartphone in de broekzak. Gebaseerd op uw Google zoekopdrachten zullen real-time scores van uw favoriete sportteam, verkeerdscondities of afspraken in uw afgenda weergeven worden. Als het Android Wear toestel NFC (Near Field Communication) ingebouwd heeft, kan er in verschillende landen (momenteel Australië, Hong Kong, Ierland, Japan, Nieuw-Zeeland, Polen, Singapore, Verenigd Koninkrijk en de Verenigde Staten) ook met de wearable betaald worden via Android Pay. \autocite{Androidpay} Ook spraakherkenning kon niet ontbreken in de Android Software. Door deze technologie kan je de wearable's spraakherkenning activeren door "OKay, Google" te zeggen of door de aanknop ingedrukt te houden. Google Assistant zal u hierop verderhelpen. Android Wear is compatibel met smartphones die werken op Android 4.3 en hoger of iOS 9 en hoger. Eén van de belangrijkste app-categorieën op Android Wear zijn de gezondheidsapps. Hiervoor wordt standaard gebruik gemaakt van Google Fit. Met Google Fit kan je kiezen tussen verschillende workouts tijdens het sporten, of bijvoorbeeld een dagelijks doel instellen voor het aantal stappen dat u wil nemen.  
 \begin{figure}[H]
 	\centering
 	\caption{\textit{Enkele voorbeelden van smartwatches gebruikmakend van Android Wear}}
@@ -22,19 +22,19 @@ Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in he
 %% Wees zo concreet mogelijk bij het formuleren van je
 %% onderzoeksvra(a)g(en). Een onderzoeksvraag is trouwens iets waar nog
 %% niemand op dit moment een antwoord heeft (voor zover je kan nagaan).
-\section{Wat is een APK en uit wat bestaat dit?}
-APK staat voor Android Application Package. Een APK is een applicatie bestand klaar voor installatie op een Android toestel. Het gecompresseerde APK bestand, een ZIP archief in JAR-formaat, wordt gedistribueerd naar Android gebruikers voor de installatie op hun smartphone, tablet of wearable. \autocite{PCMag}
+\section{Wat is een APK en uit wat bestaat deze?}
+APK staat voor Android Application Package. Een APK is een applicatiebestand klaar voor installatie op een Android-toestel. Het gecompresseerde APK bestand, een ZIP archief in JAR-formaat, wordt gedistribueerd naar Android gebruikers voor de installatie op hun smartphone, tablet of wearable. \autocite{PCMag}
 Een APK bestand bestaat normaliter uit volgende elementen : 
 \begin{enumerate}
 	\setlength\itemsep{2em}
 \item \textbf{classes.dex} \newline
-Bevat gecompileerde applicatiecode, getransformeerd naar een Dex bytecode. Het is mogelijk dat er meerdere DEX bestanden in de APK staan als er multidex gebruikt wordt om de 65536 limiet te overkomen. Vanaf Android 5.0, met de introductie van ART runtime, worden deze bestanden gecompileerd naar OAT bestanden door de compiler bij de installatie en worden deze op het toestel zijn data partitie geplaatst. 
+Bevat gecompileerde applicatiecode, getransformeerd naar een DEX bytecode. Het is mogelijk dat er meerdere DEX bestanden in de APK staan als er multidex gebruikt wordt om de 65536 limiet te overkomen. Vanaf Android 5.0, met de introductie van ART runtime, worden deze bestanden gecompileerd naar OAT bestanden door de compiler bij de installatie en worden deze op het toestel zijn data partitie geplaatst. 
 \item \textbf{res/} \newline
-Deze folder bevat de meeste XML bestanden en drawables (bijvoorbeeld PNG of JPEG bestanden) in mappen met verschillende kwalificaties, zoals -mdpi en -hdpi voor schermdichtheden, -sw600dp of -large voor schermgroottes, en -en, -de, -pl voor talen. De XML bestanden worden automatisch gecompileerd naar een compactere binaire representatie, dus deze kunnen niet met een teksteditor geopend worden vanuit de APK. 
+Deze folder bevat de meeste XML-bestanden en drawables (bijvoorbeeld PNG- of JPEG-bestanden) in mappen met verschillende kwalificaties, zoals -mdpi en -hdpi voor schermdichtheden, -sw600dp of -large voor schermgroottes, en -en, -de, -pl voor talen. De XML bestanden worden automatisch gecompileerd naar een compactere binaire representatie, dus deze kunnen niet met een teksteditor geopend worden vanuit de APK. 
 \item \textbf{resources.arsc}\newline
 Sommige resources en identifiers worden gecompileerd naar dit bestand. Het wordt normaal ongecomprimeerd opgeslagen in de APK voor snellere toegang tijdens runtime. Dit bestand manueel comprimeren kan een makkelijke oplossing lijken, maar dit is geen goed idee door 2 redenen. Eén, Play Store comprimeert alle data voor transfer automatisch en twee, dit bestand comprimeren in de APK verspilt systeem resources (RAM) en performantie (vooral de opstarttijd van de app).
 \item \textbf{AndroidManifest.xml}\newline
-Gelijklopend met andere XML resources wordt de applicatie Manifest getransformeerd naar een binair formaat tijdens de compilatie. De Play Store gebruikt bepaalde informatie in de AndroidManifest om te bepalen of een APK kan geïnstalleerd worden op een bepaald toestel, zo zijn er controles op toegelaten schermdichtheden of schermgroottes, beschikbare hardware en kenmerken (bijvoorbeeld aanwezigheid van een touchscreen). Deze Manifest inhoud kan geïnspecteerd worden na compilatie, gebruik hiervoor de aapt tool van de Android SDK: 
+Gelijklopend met andere XML resources wordt de applicatie Manifest getransformeerd naar een binair formaat tijdens de compilatie. De Play Store gebruikt bepaalde informatie in de AndroidManifest om te bepalen of een APK kan geïnstalleerd worden op een bepaald toestel, zo zijn er controles op toegelaten schermdichtheden of schermgroottes, beschikbare hardware en kenmerken (bijvoorbeeld aanwezigheid van een touchscreen). De inhoud van het Manifest kan geïnspecteerd worden na compilatie, gebruik hiervoor de aapt tool van de Android SDK: 
 \begin{lstlisting}[backgroundcolor = \color{lightgray}, xleftmargin = 2cm,
 framexleftmargin = 1em]
 $ aapt dump badging your_app.apk
@@ -42,9 +42,9 @@ $ aapt dump badging your_app.apk
 \item \textbf{libs/}\newline
 Alle native libraries (*.so bestanden) zullen in submappen geplaatst worden genaamd naar de ABI (CPU architectuur, bv. x86, \texttt{x86\_64}, armeabi-v7a) die ze als doel hebben onder de libs/ map. Normaal worden deze uit de APK gekopieerd naar de datapartitie tijdens het installeren van de applicatie. Echter, sinds de APK zelf nooit aangepast wordt zolang deze op het toestel van de gebruiker staat, neemt dit dubbel zoveel plaats in voor elke native library. 
 \item \textbf{assets/}\newline
-Deze map zal gebruikt worden voor alle bestandonderdelen die niet als Android-type resources gebruikt zullen worden. Meestal zullen dit lettertypebestanden of game data zijn, zoals levels of textures, samen met andere applicatiedata die direct geopend moet kunnen worden als een file stream.
+Deze map zal gebruikt worden voor alle bestandsonderdelen die niet als Android-type resources gebruikt zullen worden. Meestal zullen dit lettertypebestanden of game data zijn, zoals levels of textures, samen met andere applicatiedata die direct geopend moet kunnen worden als een file stream.
 \item \textbf{META-INF/}\newline
-Deze map is aanwezig in ondertekende APKs en bevat een lijst van alle bestanden in de APK met hun handtekening. Momenteel werkt het ondertekenen van bestanden in Android door het verifiëren van de handtekening tegen de ongecomprimeerde bestandinhoud van het archief, één voor één. Dit heeft enkele interessante gevolgen. Doordat elke onderdeel van een ZIP bestand apart opgeslagen wordt, betekent dit dat je individuele bestanden hun compressieniveau kan aanpassen zonder ze opnieuw te ondertekenen. De verificatie van de handtekening zal echter falen wanneer een bestand verwijderd wordt uit het archief nadat het ondertekend werd. 
+Deze map is aanwezig in ondertekende APKs en bevat een lijst van alle bestanden in de APK met hun handtekening. Momenteel werkt het ondertekenen van bestanden in Android door het verifiëren van de handtekening tegen de ongecomprimeerde bestandsinhoud van het archief, één voor één. Dit heeft enkele interessante gevolgen. Doordat elke onderdeel van een ZIP bestand apart opgeslagen wordt, betekent dit dat je individuele bestanden hun compressieniveau kan aanpassen zonder ze opnieuw te ondertekenen. De verificatie van de handtekening zal echter falen wanneer een bestand verwijderd wordt uit het archief nadat het ondertekend werd. 
 \end{enumerate}
 
 \begin{figure}[H]
@@ -60,7 +60,7 @@ Deze map is aanwezig in ondertekende APKs en bevat een lijst van alle bestanden 
 Uit de richtlijnen van Google voor het verkleinen van de grootte van de APK werden volgende technieken gekozen om te onderzoeken \autocite{googlereduceapksize} : 
 
 \subsubsection{Gebruik Proguard en Dexguard}
-Deze 2 tools worden gebruikt door Cozmos voor beperking van de grootte van de APK maar ook voor andere zaken : 
+Uit een interview met Cozmos, het bedrijf waarbij mijn co-promotor Joris Missiaen werkzaam is blijft dat zij deze tools ook gebruiken : 
 \begin{quote}
 	\colorbox{lightgray}{\parbox{350px}{De belangrijkste tool om de grootte van een APK te beperken is Proguard. Proguard zorgt er niet enkel voor dat je code moeilijker leesbaar wordt bij reverse engineering maar het verwijdert ook al je ongebruikte code en resources.
 	Bij de grotere klanten waar ook security van groot belang is maken we gebruik van Dexguard. Dexguard is de commerciële variant van Proguard en gaat een stap verder met zijn compressietechnieken maar biedt daarnaast ook tal van andere features aan.
@@ -74,7 +74,7 @@ De ingebouwde lint tool in Android Studio, een statische code analyzer, detectee
 
 \subsubsection{Verklein resource gebruik van libraries}
 \label{sec:minimizeresourceslibraries}
-Wanneer u een Android app ontwikkelt, worden vaak externe librbaries gebruikt om de gebruiksvriendelijkheid te verhogen. Deze libraries bevatten vaak elementen die voor desktops of servers bedoeld zijn, deze elementen kunnen uit de libraries verwijderd worden indien de licentie dit toestaat. Deze techniek wordt ook gebruikt door Cozmos : 
+Wanneer u een Android app ontwikkelt, worden vaak externe libraries gebruikt om de gebruiksvriendelijkheid te verhogen. Deze libraries bevatten vaak elementen die voor desktops of servers bedoeld zijn, deze elementen kunnen uit de libraries verwijderd worden indien de licentie dit toestaat. Deze techniek wordt ook gebruikt door Cozmos : 
 \begin{quote}
 	\colorbox{lightgray}{\parbox{350px}{Bij het gebruik van libraries kan het handig zijn om enkel de modules in je project te importeren die je ook daadwerkelijk nodig hebt. Ook kan het nuttig zijn om verschillende libraries tegenover elkaar af te wegen en te kijken welke de laagste method count hebben, het best met het geheugen omgaan, het minste plaats innemen, enz. Stel dat je een library aan je project zou willen toevoegen om images in te laden dan zou je de afweging kunnen maken tussen Glide en Picasso. Picasso is bijvoorbeeld 3,5 keer kleiner dan Glide maar anderzijds gebruikt Glide een pak minder geheugen om een image weer te geven. Dat zijn afwegingen die je moet maken.}}
 \end{quote}
@@ -85,7 +85,7 @@ Vanaf Android 4.4 worden verschillende schermdichtheden ondersteund (ldpi, mdpi,
 
 \subsubsection{Verminder animatie frames }
 \label{sec:reduceanimationframes}
-Voor elke frame in een animatie wordt een aparte afbeelding opgeslaan. Als er bijvoorbeeld een animatie aanwezig is met 30 FPS (frames per second) zullen er 30 afbeeldingen opgeslagen worden, maar vaak is bijvoorbeeld 15 FPS meer dan voldoende, en wordt dus de helft van de ingenomen opslagruimte gebruikt.
+Voor elke frame in een animatie wordt een aparte afbeelding opgeslagen. Als er bijvoorbeeld een animatie aanwezig is met 30 FPS (frames per second) zullen er 30 afbeeldingen opgeslagen worden, maar vaak is bijvoorbeeld 15 FPS meer dan voldoende, en wordt dus de helft van de ingenomen opslagruimte gebruikt.
 \begin{figure}[H]
 	\centering
 	\caption{\textit{Door vermindering FPS zullen minder aparte afbeeldingen per animatie opgeslagen worden}\newline}
@@ -98,14 +98,14 @@ Het is mogelijk om voor elke variatie op een afbeelding (getint, met schaduw of 
 Android voorziet verschillende utiliteiten om de kleur van een afbeelding aan te passen.
 \subsubsection{Comprimeer afbeeldingen }
 \label{sec:compressimages}
-De aapt tool kan de afbeelding resources in res/drawable/ optimaliseren met lossless compressie. De tool kan bijvoorbeeld een true-color PNG bestand dat niet meer dan 256 kleuren bevat omzetten naar een 8-bit PNG met een kleurenpallet. Dit resulteert in een afbeelding van eenzelfde kwaliteit maar met een kleinere geheugenvoetafdruk. Deze tool kan geen PNG bestanden in de asset/ folder verkleinen. Deze techniek wordt ook bij Cozmos gebruikt : 
+De aapt tool kan de afbeelding resources in res/drawable/ optimaliseren met lossless compressie. De tool kan bijvoorbeeld een true-color PNG bestand dat niet meer dan 256 kleuren bevat omzetten naar een 8-bit PNG met een kleurenpallet. Dit resulteert in een afbeelding van eenzelfde kwaliteit maar met een kleinere geheugenvoetafdruk. Deze tool kan geen PNG-bestanden in de asset/ folder verkleinen. Deze techniek wordt ook bij Cozmos gebruikt : 
 \begin{quote}
-\colorbox{lightgray}{\parbox{350px}{Je kan al ruimte besparen door een juiste keuze te maken tussen jpg/png en verdere compressie toe te passen. Soms is ook geen volledige image nodig maar kan je opteren voor een 9-patch image of om een drawable in XML te definieren.}}
+\colorbox{lightgray}{\parbox{350px}{Je kan al ruimte besparen door een juiste keuze te maken tussen JPG/PNG en verdere compressie toe te passen. Soms is ook geen volledige image nodig maar kan je opteren voor een 9-patch image of om een drawable in XML te definieren.}}
 \end{quote}
 
 \subsubsection{Gebruik WebP bestandformaat }
 \label{sec:webp}
-In plaats van PNG of JPEG bestanden, kan er ook gebruik gemaakt worden van het WebP formaat voor afbeeldingen. Dit formaat voorziet lossless compressie (zoals JPEG) en transparantie (zoals PNG) maar voorziet betere compressie dan beide andere formaten. Het gebruik van WebP heeft echter ook enkele nadelen. WebP-ondersteuning is niet beschikbaar bij versies lager dan Android 3.2 (API level 13). Het neemt ook een langere tijd voor het systeem om WebP bestanden te decoderen dan PNG bestanden. Bestaande BPM, JPG, PNG of statische GIF afbeeldingen kunnen naar het WebP formaat omgezet worden door Android Studio. 
+In plaats van PNG- of JPEG-bestanden, kan er ook gebruik gemaakt worden van het WebP formaat voor afbeeldingen. Dit formaat voorziet lossless compressie (zoals JPEG) en transparantie (zoals PNG) maar voorziet betere compressie dan beide andere formaten. Het gebruik van WebP heeft echter ook enkele nadelen. WebP-ondersteuning is niet beschikbaar bij versies lager dan Android 3.2 (API level 13). Het neemt ook een langere tijd voor het systeem om WebP bestanden te decoderen dan PNG bestanden. Bestaande BPM, JPG, PNG of statische GIF afbeeldingen kunnen naar het WebP formaat omgezet worden door Android Studio. 
 
 \subsubsection{Gebruik vector graphics }
 \label{sec:vectorgraphics}
@@ -152,8 +152,8 @@ Bij Cozmos werd het volgende opgemerkt als verband tussen compressie en de prest
 \section{Verschillende app-profielen Android Wear}
 Verder in deze studie zullen de verschillende compressietechnieken toegepast worden op een proof-of-concept app binnen elk van de 3 profielen. Hierdoor kan binnen elk app-profiel gekeken worden welke technieken het meeste invloed zullen hebben op de grootte van de APK. Ook zal er onderzocht worden voor elk app-profiel of er al dan niet negatieve bijwerkingen zijn voor de prestaties van de app na compressie, en hoe groot deze bijwerkingen zijn. 
 \subsection{Fitness-apps}
-Deze apps zullen de gebruiker vooral hebben bij het opvolgen van lichamelijke inspanningen, opvolging van voeding.. Bij deze apps wordt meestal gebruikgemaakt van de ingebouwde GPS in het Android Wear toestel. Doordat deze GPS constant actief is, zal het batterijgebruik van deze apps zeer hoog liggen.
+Deze apps zullen de gebruiker vooral helpen bij het opvolgen van lichamelijke inspanningen, opvolging van voeding.. Bij deze apps wordt meestal gebruikgemaakt van de ingebouwde GPS in het Android Wear toestel. Doordat deze GPS constant actief is, zal het batterijgebruik van deze apps zeer hoog liggen.
 \subsection{Foto-apps}
-Apps die veel gebruik maken van foto's zullen in het algemeen vrij veel opslagruimte in beslag nemen, aangezien elke foto in de app meegeleverd wordt, en de grootte van een foto snel kan oplopen tot 1MB. Indien de foto's niet meegeleverd worden in de APK van de app, dienen de foto's gedownload te worden van het internet, en zal er dus meer netwerkactiviteit gebruikt worden, en CPU verbruik om de foto te genereren op de juiste plaats in de app.
+Apps die veel gebruikmaken van foto's zullen in het algemeen vrij veel opslagruimte in beslag nemen, aangezien elke foto in de app meegeleverd wordt, en de grootte van een foto snel kan oplopen tot 1MB. Indien de foto's niet meegeleverd worden in de APK van de app, dienen de foto's gedownload te worden van het internet, en zal er dus meer netwerkactiviteit gebruikt worden, en CPU verbruik om de foto te genereren op de juiste plaats in de app.
 \subsection{CPU-intensieve apps}
 Apps die veel (visuele) informatie moeten genereren tijdens runtime, zullen in het algemeen een hoog CPU verbruik hebben. Een voorbeeld hiervan is een app die muziek afspeelt, en intussen visuele effecten afbeeldt die gegenereerd worden op het tempo van de afgespeelde muziek.  
