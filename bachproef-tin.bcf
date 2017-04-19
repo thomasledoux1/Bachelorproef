@@ -2303,12 +2303,13 @@
   <bcf:section number="0">
     <bcf:citekey order="1">IDC</bcf:citekey>
     <bcf:citekey order="2">OpenSourceInitiative</bcf:citekey>
-    <bcf:citekey order="3">Google</bcf:citekey>
-    <bcf:citekey order="4">Dictionary</bcf:citekey>
-    <bcf:citekey order="5">Techradar</bcf:citekey>
-    <bcf:citekey order="6">Androidpay</bcf:citekey>
-    <bcf:citekey order="7">PCMag</bcf:citekey>
-    <bcf:citekey order="8">googlereduceapksize</bcf:citekey>
+    <bcf:citekey order="3">Dictionary</bcf:citekey>
+    <bcf:citekey order="4">Techradar</bcf:citekey>
+    <bcf:citekey order="5">Androidpay</bcf:citekey>
+    <bcf:citekey order="6">PCMag</bcf:citekey>
+    <bcf:citekey order="7">googlereduceapksize</bcf:citekey>
+    <bcf:citekey order="8">aapt</bcf:citekey>
+    <bcf:citekey order="9">Google</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="apa/global/" type="entry" sortscheme="apa" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

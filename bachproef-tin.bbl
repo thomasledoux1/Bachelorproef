@@ -61,6 +61,26 @@
       \field{title}{Wearable definition}
       \field{year}{2017}
     \endentry
+    \entry{aapt}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f94ab017d0b7a8b788a577c98cbe69b6}{%
+           family={Elinux},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f94ab017d0b7a8b788a577c98cbe69b6}
+      \strng{fullhash}{f94ab017d0b7a8b788a577c98cbe69b6}
+      \strng{authornamehash}{f94ab017d0b7a8b788a577c98cbe69b6}
+      \strng{authorfullhash}{f94ab017d0b7a8b788a577c98cbe69b6}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://elinux.org/Android_aapt}}
+      \field{title}{Android aapt}
+      \field{year}{2010}
+    \endentry
     \entry{googlereduceapksize}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8b36e9207c24c76e6719268e49201d94}{%
