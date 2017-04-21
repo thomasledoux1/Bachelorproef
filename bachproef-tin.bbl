@@ -163,6 +163,28 @@
       \field{title}{The Open Source Definition (Annotated)}
       \field{year}{2017}
     \endentry
+    \entry{weartimer}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cac71f96f6a707c5a8f63102d7a4080c}{%
+           family={Khmelenko},
+           familyi={K\bibinitperiod},
+           given={Dmytro},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{cac71f96f6a707c5a8f63102d7a4080c}
+      \strng{fullhash}{cac71f96f6a707c5a8f63102d7a4080c}
+      \strng{authornamehash}{cac71f96f6a707c5a8f63102d7a4080c}
+      \strng{authorfullhash}{cac71f96f6a707c5a8f63102d7a4080c}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/dkhmelenko/WearTimer}}
+      \field{title}{WearTimer}
+      \field{year}{2015}
+    \endentry
     \entry{PCMag}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=e49eaa3398425444c9889464862b91d0}{%
@@ -202,6 +224,28 @@
       \field{howpublished}{\url{http://www.techradar.com/news/wearables/google-android-wear-what-you-need-to-know-1235025}}
       \field{title}{Android Wear: everything you need to know}
       \field{year}{2017}
+    \endentry
+    \entry{wearswarm}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e0efc8f839347f8191fb3297397fab7d}{%
+           family={Viviani},
+           familyi={V\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0efc8f839347f8191fb3297397fab7d}
+      \strng{fullhash}{e0efc8f839347f8191fb3297397fab7d}
+      \strng{authornamehash}{e0efc8f839347f8191fb3297397fab7d}
+      \strng{authorfullhash}{e0efc8f839347f8191fb3297397fab7d}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/sealskej/wear-for-swarm}}
+      \field{title}{Wear For Swarm}
+      \field{year}{2014}
     \endentry
   \endsortlist
 \endrefsection

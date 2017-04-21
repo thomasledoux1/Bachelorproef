@@ -34,16 +34,19 @@ Bij de eerste applicatie die getest werd, een foto-app die veel mediabestanden b
 	
 \end{figure}
 
-\subsection{Fitness-app}
-Bij de tweede applicatie die getest werd, een fitness-app die meer gebruik zal maken van de ingebouwde GPS van het toestel, werden op het vlak van de grootte van de APK geen wijzigingen opgemerkt. De grootte van de APK werd na het toepassen van elke compressietechniek geanalyseerd, maar deze bleef op hetzelfde niveau. Bij het geheugengebruik werd een minieme verandering waargenomen na het toepassen van de 2e techniek, het comprimeren van de afbeeldingen. Het geheugengebruik lag 0.01MB lager na het toepassen van deze techniek. De overige technieken hadden geen invloed op het geheugengebruik. Het CPU-gebruik bleef constant na het toepassen van de verschillende technieken.
+\subsection{GPS-intensieve app}
+De tweede applicatie die getest werd is een app gemaakt om op Swarm te kunnen inchecken via een Android Wear toestel. Dit toestel moet dan natuurlijk wel een GPS antenne bevatten. Deze app is open-source, en werd gecreërd door \autocite{wearswarm}. De app heet Wear for Swarm.
+Bij deze app werden op het vlak van de grootte van de APK geen wijzigingen opgemerkt. De grootte van de APK werd na het toepassen van elke compressietechniek geanalyseerd, maar deze bleef op hetzelfde niveau. Bij het geheugengebruik werd een minieme verandering waargenomen na het toepassen van de 2e techniek, het comprimeren van de afbeeldingen. Het geheugengebruik lag 0.01MB lager na het toepassen van deze techniek. De overige technieken hadden geen invloed op het geheugengebruik. Het CPU-gebruik bleef constant na het toepassen van de verschillende technieken.
 \begin{figure}[H]
 	\centering
-	\caption{\textit{Resultaten verschillende compressietechnieken op APK-grootte fitness-app}}
+	\caption{\textit{Resultaten verschillende compressietechnieken op APK-grootte GPS-intensieve app}}
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/Rplot02}\\[.5cm]
 	
 \end{figure}
 \subsection{CPU-intensieve app}
-Bij de derde en laatste applicatie die getest werd, een timer-app die de CPU intensiever gebruikt, werden op het vlak van de grootte van de APK geen wijzigingen opgemerkt. De grootte van de APK werd na het toepassen van elke compressietechniek geanalyseerd, maar deze bleef op hetzelfde niveau. Bij het geheugengebruik werd een verandering van 0.03MB meer geheugen waargenomen na het toepassen van de eerste techniek, het verwijderen van ongebruikte resources. Na het toepassen van de tweede techniek werd er nog een extra toevoeging van 0.01 gebruikt geheugen genoteerd. Het CPU-gebruik was constant na het toepassen van de verschillende technieken.
+\vspace{-1ex}
+De derde en laatste app die getest werd is een timer-app die de CPU intensiever zal gebruiken. Er werd gekozen om een open-source app te kiezen om de verschillende technieken op toe te passen, zodat er toegang is tot de bronbestanden. De gekozen app heet WearTimer en werd gecreërd door \autocite{weartimer}.
+Er werden bij deze app op het vlak van de grootte van de APK geen wijzigingen opgemerkt. De grootte van de APK werd na het toepassen van elke compressietechniek geanalyseerd, maar deze bleef op hetzelfde niveau. Bij het geheugengebruik werd een verandering van 0.03MB meer geheugen waargenomen na het toepassen van de eerste techniek, het verwijderen van ongebruikte resources. Na het toepassen van de tweede techniek werd er nog een extra toevoeging van 0.01 gebruikt geheugen genoteerd. Het CPU-gebruik was constant na het toepassen van de verschillende technieken.
 \begin{figure}[H]
 	\centering
 	\caption{\textit{Resultaten verschillende compressietechnieken op APK-grootte CPU-intensieve app}}
@@ -68,18 +71,18 @@ Bij de derde en laatste applicatie die getest werd, een timer-app die de CPU int
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/app1cpu}\\[.5cm]
 	
 \end{figure}
-\subsection{Fitness-app}
+\subsection{GPS-intensieve app}
 \subsubsection{Geheugengebruik}
 \begin{figure}[H]
 	\centering
-	\caption{\textit{Resultaten verschillende compressietechnieken op geheugengebruik fitness-app}}
+	\caption{\textit{Resultaten verschillende compressietechnieken op geheugengebruik GPS-intensieve app}}
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/app2geheugen}\\[.5cm]
 	
 \end{figure}
 \subsubsection{CPU-gebruik}
 \begin{figure}[H]
 	\centering
-	\caption{\textit{Resultaten verschillende compressietechnieken op CPU-gebruik fitness-app}}
+	\caption{\textit{Resultaten verschillende compressietechnieken op CPU-gebruik GPS-intensieve app}}
 	\includegraphics[width=10cm, height=10cm, keepaspectratio]{img/app2cpu}\\[.5cm]
 	
 \end{figure}

@@ -13,9 +13,9 @@
 
 \section{Literatuurstudie Android Wear}
 \label{sec:androidwear}
-Android Wear is Google's platform voor wearables. Een wearable wordt beschreven als een computer of geavanceerd elektronisch toestel dat geïncorporeerd is in een accessoire gedragen op het lichaam of in een kledingstuk. \autocite{Dictionary}
-We lijsten enkele van de  belangrijkste kenmerken van Android Wear op. \autocite{Techradar}.
-Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in het achterhoofd. Het maakt de toegang tot enkele van uw smartphone's makkelijkste functionaliteiten zo makkelijk als kijken naar uw pols. Het is vooral bedoeld om de notificaties van uw smartphone makkelijk te weergeven zodat niet elke keer gezocht moet worden naar de smartphone in de broekzak. Gebaseerd op uw Google zoekopdrachten zullen real-time scores van uw favoriete sportteam, verkeerscondities of afspraken in uw agenda weergeven worden. Als het Android Wear toestel NFC (Near Field Communication) ingebouwd heeft, kan er in verschillende landen (momenteel Australië, Hong Kong, Ierland, Japan, Nieuw-Zeeland, Polen, Singapore, Verenigd Koninkrijk en de Verenigde Staten) ook met de wearable betaald worden via Android Pay. \autocite{Androidpay} Ook spraakherkenning kon niet ontbreken in de Android Software. Door deze technologie kan je de op de wearable spraakherkenning activeren door "Okay, Google" te zeggen of door de aanknop ingedrukt te houden. Google Assistant zal u hierop verderhelpen. Android Wear is compatibel met smartphones die werken op Android 4.3 en hoger of iOS 9 en hoger. Eén van de belangrijkste app-categorieën op Android Wear zijn de gezondheidsapps. Hiervoor wordt standaard gebruik gemaakt van Google Fit. Met Google Fit kan je kiezen tussen verschillende workouts tijdens het sporten, of bijvoorbeeld een dagelijks doel instellen voor het aantal stappen dat u wil nemen.  
+Android Wear is Google's platform voor wearables. Een wearable wordt beschreven als een computer of geavanceerd elektronisch toestel dat geïncorporeerd is in een accessoire gedragen op het lichaam of in een kledingstuk \autocite{Dictionary}.
+We lijsten enkele van de  belangrijkste kenmerken van Android Wear op \autocite{Techradar}.
+Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in het achterhoofd. Het maakt de toegang tot enkele van uw smartphone's makkelijkste functionaliteiten zo makkelijk als kijken naar uw pols. Het is vooral bedoeld om de notificaties van uw smartphone makkelijk te weergeven zodat niet elke keer gezocht moet worden naar de smartphone in de broekzak. Gebaseerd op uw Google zoekopdrachten zullen real-time scores van uw favoriete sportteam, verkeerscondities of afspraken in uw agenda weergeven worden. Als het Android Wear toestel NFC (Near Field Communication) ingebouwd heeft, kan er in verschillende landen (momenteel Australië, Hong Kong, Ierland, Japan, Nieuw-Zeeland, Polen, Singapore, Verenigd Koninkrijk en de Verenigde Staten) ook met de wearable betaald worden via Android Pay \autocite{Androidpay} Ook spraakherkenning kon niet ontbreken in de Android Software. Door deze technologie kan je de op de wearable spraakherkenning activeren door "Okay, Google" te zeggen of door de aanknop ingedrukt te houden. Google Assistant zal u hierop verderhelpen. Android Wear is compatibel met smartphones die werken op Android 4.3 en hoger of iOS 9 en hoger. Eén van de belangrijkste app-categorieën op Android Wear zijn de gezondheidsapps. Hiervoor wordt standaard gebruik gemaakt van Google Fit. Met Google Fit kan je kiezen tussen verschillende workouts tijdens het sporten, of bijvoorbeeld een dagelijks doel instellen voor het aantal stappen dat u wil nemen.  
 \begin{figure}[H]
 	\centering
 	\caption{\textit{Enkele voorbeelden van smartwatches gebruikmakend van Android Wear}}
@@ -29,7 +29,7 @@ Android Wear is gebouwd voor kleinere toestellen en met hands-free gebruik in he
 %% onderzoeksvra(a)g(en). Een onderzoeksvraag is trouwens iets waar nog
 %% niemand op dit moment een antwoord heeft (voor zover je kan nagaan).
 \subsection{Wat is een APK en uit wat bestaat dit?}
-APK staat voor Android Application Package. Een APK is een applicatiebestand klaar voor installatie op een Android-toestel. Het gecompresseerde APK bestand, een ZIP archief in JAR-formaat, wordt gedistribueerd naar Android gebruikers voor de installatie op hun smartphone, tablet of wearable. \autocite{PCMag}
+APK staat voor Android Application Package. Een APK is een applicatiebestand klaar voor installatie op een Android-toestel. Het gecompresseerde APK bestand, een ZIP archief in JAR-formaat, wordt gedistribueerd naar Android gebruikers voor de installatie op hun smartphone, tablet of wearable \autocite{PCMag}.
 Een APK bestand bestaat normaliter uit volgende elementen : 
 \subsubsection{Elementen APK}
 \begin{enumerate}
@@ -75,10 +75,11 @@ Een APK bestaat dus uit 7 onderdelen. Deze onderdelen zullen echter wel verschil
 
 \subsection{Verschillende app-profielen Android Wear}
 Verder in deze studie zullen de verschillende compressietechnieken toegepast worden op een proof-of-concept app binnen elk van de 3 profielen (foto-apps, fitness-apps, CPU-intensieve apps). Hierdoor kan binnen elk app-profiel gekeken worden welke technieken het meeste invloed zullen hebben op de grootte van de APK. Ook zal voor elk app-profiel onderzocht worden of er al dan niet negatieve bijwerkingen zijn voor de prestaties van de app na compressie en hoe groot deze bijwerkingen zijn. Op deze manier kan dit onderzoek voor de ontwikkelaars van elk type app nagaan welke technieken voor hun app in ontwikkeling het meest effect zullen hebben op de grootte van de APK. Aan de hand van de resultaten van het onderzoek kan dan ook de afweging gemaakt worden of er voor hun applicatie niet te veel moet ingeboet worden op vlak van CPU- en geheugenprestaties van de app.
-\subsubsection{Fitness-apps}
-Deze apps zullen de gebruiker vooral helpen bij het opvolgen van lichamelijke inspanningen en opvolging van voeding. Bij deze apps wordt meestal gebruikgemaakt van de ingebouwde GPS in het Android Wear toestel. Doordat deze GPS constant actief is, zal het batterijgebruik van deze apps zeer hoog liggen.
+
 \subsubsection{Foto-apps}
 Apps die veel gebruikmaken van foto's zullen in het algemeen vrij veel opslagruimte in beslag nemen, aangezien elke foto in de app meegeleverd wordt en de grootte van een foto snel kan oplopen tot 1MB. Indien de foto's niet meegeleverd worden in de APK van de app, dienen de foto's gedownload te worden van het internet en zal er dus meer netwerkactiviteit gebruikt worden en CPU verbruik om de foto te genereren op de juiste plaats in de app.
+\subsubsection{GPS-intensieve apps}
+Deze apps zullen de gebruiker vooral helpen bij het opvolgen van lichamelijke inspanningen en beweging. Bij deze apps wordt meestal gebruikgemaakt van de ingebouwde GPS in het Android Wear toestel. Doordat deze GPS constant actief is, zal het batterijgebruik van deze apps zeer hoog liggen.
 \subsubsection{CPU-intensieve apps}
 Apps die veel (visuele) informatie moeten genereren tijdens runtime, zullen in het algemeen een hoog CPU verbruik hebben. Een voorbeeld hiervan is een app die muziek afspeelt en intussen visuele effecten afbeeldt die gegenereerd worden op het tempo van de afgespeelde muziek.  
 
@@ -183,7 +184,7 @@ Bij Cozmos werd het volgende opgemerkt als verband tussen compressie en de prest
 \section{Creatie proof-of-concept foto-app}
 \label{sec:proofofconcept}
 
-Om het onderzoek te onderbouwen, werd een Android Wear proof-of-concept app gecreëerd. Dit is een algemene applicatie, waarin verschillende elementen toegevoegd worden zoals media-bestanden en veel code. Het doel van de creatie van deze app is om de verschillende compressietechnieken hierop toe te passen en de resultaten grafisch voor te stellen. De applicatie draait op Android Wear 2.0. Deze versie werd op 09/02/2017 uitgebracht door Google.\autocite{Google} Doordat voor deze versie gekozen werd, kan de app als standalone app gebruikt worden. Dit houdt in dat de app op een smartwatch kan gebruikt worden onafhankelijk van een smartphone. De gebruikers kunnen meer taken, zoals muziek afspelen of foto's bekijken, op hun smartwatch uitvoeren zonder toegang tot een Android of iOS smartphone. De app zal als functie hebben om foto's weer te geven op de smartwatch, waar de gebruiker tussen kan wisselen door te tikken op het scherm. Op deze afbeeldingen werd vooraf nog geen compressie toegepast er werden afbeeldingen van een standaardgrootte gebruikt die dan automatisch geschaald werden naar de grootte van de image views. In de app zit ook een splashscreen verwerkt (scherm dat weergeven wordt tijdens het opstarten van de applicatie). 
+Om het onderzoek te onderbouwen, werd een Android Wear proof-of-concept app gecreëerd. Dit is een algemene applicatie, waarin verschillende elementen toegevoegd worden zoals media-bestanden en veel code. Het doel van de creatie van deze app is om de verschillende compressietechnieken hierop toe te passen en de resultaten grafisch voor te stellen. De applicatie draait op Android Wear 2.0. Deze versie werd op 09/02/2017 uitgebracht door Google \autocite{Google}. Doordat voor deze versie gekozen werd, kan de app als standalone app gebruikt worden. Dit houdt in dat de app op een smartwatch kan gebruikt worden onafhankelijk van een smartphone. De gebruikers kunnen meer taken, zoals muziek afspelen of foto's bekijken, op hun smartwatch uitvoeren zonder toegang tot een Android of iOS smartphone. De app zal als functie hebben om foto's weer te geven op de smartwatch, waar de gebruiker tussen kan wisselen door te tikken op het scherm. Op deze afbeeldingen werd vooraf nog geen compressie toegepast er werden afbeeldingen van een standaardgrootte gebruikt die dan automatisch geschaald werden naar de grootte van de image views. In de app zit ook een splashscreen verwerkt (scherm dat weergeven wordt tijdens het opstarten van de applicatie). Deze app zal dus als testapp gebruikt worden voor het app-profiel "Foto-apps". 
 \begin{figure}[H]
 	\centering
 	\caption{\textit{Hoofdscherm foto-app}}
@@ -195,13 +196,3 @@ Om het onderzoek te onderbouwen, werd een Android Wear proof-of-concept app gecr
 	\includegraphics[width=7cm, height=7cm, keepaspectratio]{img/photoappgallery}\\[.5cm]
 	
 \end{figure}
-
-\section{Verschillende technieken toepassen op proof-of-concept app}
-\label{sec:techniekentoepassen}
-
-
-\section{Prestaties en grootte app testen na toepassen technieken}
-\label{sec:prestatiesgrootteapp}
-
-\section{Testen van app door framework Brian Pinsard}
-\label{sec:apptesting}

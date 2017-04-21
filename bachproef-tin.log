@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.24)  19 APR 2017 21:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.24)  21 APR 2017 16:15
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2086,7 +2086,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 14.
-<img/WearExamples.jpg, id=157, 1997.4625pt x 919.435pt>
+<img/WearExamples.jpg, id=148, 1997.4625pt x 919.435pt>
 File: img/WearExamples.jpg Graphic file (type jpg)
 
 <use img/WearExamples.jpg>
@@ -2136,7 +2136,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<img/ApkStructure.jpg, id=179, 640.3925pt x 360.34625pt>
+<img/ApkStructure.jpg, id=170, 640.3925pt x 360.34625pt>
 File: img/ApkStructure.jpg Graphic file (type jpg)
 
 <use img/ApkStructure.jpg>
@@ -2166,19 +2166,19 @@ Package babel Info: Redefining dutch shorthand "~
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 81.
  [14 <./img/ApkStructure.jpg>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 85.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 95
+(babel)             in language  on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 96
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -2187,18 +2187,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 95
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 96
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 95
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 96
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 95
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 96
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
@@ -2210,127 +2210,107 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 96.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 103.
  [15]
-<img/animation-frames.png, id=213, 806.01125pt x 594.22pt>
+<img/animation-frames.png, id=204, 806.01125pt x 594.22pt>
 File: img/animation-frames.png Graphic file (type png)
 
 <use img/animation-frames.png>
-Package pdftex.def Info: img/animation-frames.png used on input line 122.
+Package pdftex.def Info: img/animation-frames.png used on input line 123.
 (pdftex.def)             Requested size: 284.5187pt x 209.75725pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 126.
  [16]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 140.
 
 [17 <./img/animation-frames.png (PNG copy)>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 145.
 
-Overfull \hbox (25.16724pt too wide) in paragraph at lines 160--162
+Overfull \hbox (25.16724pt too wide) in paragraph at lines 161--163
 \T1/ptm/m/n/12 (-20) Bewaar .so be-stan-den on-ge-com-pres-seerd in de APK, en 
 stel de ``an-droid:extractNativeLibs``
  []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 162.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 162.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 162.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 162.
+(babel)             in language  on input line 163.
 [18]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 183.
- <img/photoappmain.png, id=244, 232.4685pt x 207.77625pt>
+(babel)             in language  on input line 184.
+ <img/photoappmain.png, id=235, 232.4685pt x 207.77625pt>
 File: img/photoappmain.png Graphic file (type png)
 
 <use img/photoappmain.png>
-Package pdftex.def Info: img/photoappmain.png used on input line 190.
+Package pdftex.def Info: img/photoappmain.png used on input line 191.
 (pdftex.def)             Requested size: 199.18118pt x 178.02463pt.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 192.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 192.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 192.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 192.
  [19]
-<img/photoappgallery.png, id=253, 233.07076pt x 207.174pt>
+<img/photoappgallery.png, id=244, 233.07076pt x 207.174pt>
 File: img/photoappgallery.png Graphic file (type png)
 
 <use img/photoappgallery.png>
-Package pdftex.def Info: img/photoappgallery.png used on input line 195.
+Package pdftex.def Info: img/photoappgallery.png used on input line 196.
 (pdftex.def)             Requested size: 199.17442pt x 177.04391pt.
-
-Overfull \hbox (1.5893pt too wide) in paragraph at lines 199--199
-[]\T1/pag/db/n/14.4 Verschillende tech-nie-ken toe-pas-sen op proof-of-concept 
-app 
- []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 199.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 199.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 203.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 203.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 206.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 206.
 ) (resultaten.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
@@ -2340,26 +2320,6 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
  [20 <./img/photoappmain.png> <./img/photoappgallery.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
- [21]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
- [22
-
-]
 Hoofdstuk 3.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -2373,7 +2333,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 28.
-<img/Rplot01.png, id=270, 648.17157pt x 405.01312pt>
+<img/Rplot01.png, id=253, 648.17157pt x 405.01312pt>
 File: img/Rplot01.png Graphic file (type png)
  <use img/Rplot01.png>
 Package pdftex.def Info: img/Rplot01.png used on input line 33.
@@ -2387,130 +2347,145 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 35.
 
-[23]
+[21
+
+]
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 37.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 37.
- <img/Rplot02.png, id=281, 648.17157pt x 405.01312pt>
+ <img/Rplot02.png, id=264, 648.17157pt x 405.01312pt>
 File: img/Rplot02.png Graphic file (type png)
 
 <use img/Rplot02.png>
-Package pdftex.def Info: img/Rplot02.png used on input line 42.
+Package pdftex.def Info: img/Rplot02.png used on input line 43.
 (pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 45.
- [24 <./img/Rplot01.png>]
+(babel)             in language  on input line 46.
+ [22 <./img/Rplot01.png>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 File: img/Rplot02.png Graphic file (type png)
  <use img/Rplot02.png>
-Package pdftex.def Info: img/Rplot02.png used on input line 50.
-(pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 54.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 54.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
-
-<img/Rplot03.png, id=288, 648.17157pt x 405.01312pt>
-File: img/Rplot03.png Graphic file (type png)
- <use img/Rplot03.png>
-Package pdftex.def Info: img/Rplot03.png used on input line 61.
+Package pdftex.def Info: img/Rplot02.png used on input line 53.
 (pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 64.
- [25 <./img/Rplot02.png>] <img/app1cpu.png, id=296, 648.17157pt x 405.01312pt>
+(babel)             in language  on input line 56.
+ [23 <./img/Rplot02.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 59.
+ <img/Rplot03.png, id=281, 648.17157pt x 405.01312pt>
+File: img/Rplot03.png Graphic file (type png)
+
+<use img/Rplot03.png>
+Package pdftex.def Info: img/Rplot03.png used on input line 64.
+(pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
+ <img/app1cpu.png, id=282, 648.17157pt x 405.01312pt>
 File: img/app1cpu.png Graphic file (type png)
 
 <use img/app1cpu.png>
-Package pdftex.def Info: img/app1cpu.png used on input line 68.
+Package pdftex.def Info: img/app1cpu.png used on input line 71.
 (pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 71.
 
-<img/app2geheugen.png, id=297, 648.17157pt x 405.01312pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 74.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 74.
+ [24 <./img/Rplot03.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 74.
+ <img/app2geheugen.png, id=291, 648.17157pt x 405.01312pt>
 File: img/app2geheugen.png Graphic file (type png)
 
 <use img/app2geheugen.png>
-Package pdftex.def Info: img/app2geheugen.png used on input line 76.
+Package pdftex.def Info: img/app2geheugen.png used on input line 79.
+(pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
+
+<img/app2cpu.png, id=292, 648.17157pt x 405.01312pt>
+File: img/app2cpu.png Graphic file (type png)
+ <use img/app2cpu.png>
+Package pdftex.def Info: img/app2cpu.png used on input line 86.
 (pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 79.
- [26 <./img/Rplot03.png> <./img/app1cpu.png>]
-<img/app2cpu.png, id=308, 648.17157pt x 405.01312pt>
-File: img/app2cpu.png Graphic file (type png)
- <use img/app2cpu.png>
-Package pdftex.def Info: img/app2cpu.png used on input line 83.
-(pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
+(babel)             in language  on input line 89.
+ [25 <./img/app1cpu.png> <./img/app2geheugen.png>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 86.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 86.
+(babel)             in language  on input line 89.
 
-<img/app3geheugen.png, id=309, 648.17157pt x 405.01312pt>
+<img/app3geheugen.png, id=303, 648.17157pt x 405.01312pt>
 File: img/app3geheugen.png Graphic file (type png)
 
 <use img/app3geheugen.png>
-Package pdftex.def Info: img/app3geheugen.png used on input line 91.
+Package pdftex.def Info: img/app3geheugen.png used on input line 94.
+(pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
+
+<img/app3cpu.png, id=304, 648.17157pt x 405.01312pt>
+File: img/app3cpu.png Graphic file (type png)
+ <use img/app3cpu.png>
+Package pdftex.def Info: img/app3cpu.png used on input line 101.
 (pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 94.
- [27 <./img/app2geheugen.png> <./img/app2cpu.png>]
-<img/app3cpu.png, id=320, 648.17157pt x 405.01312pt>
-File: img/app3cpu.png Graphic file (type png)
- <use img/app3cpu.png>
-Package pdftex.def Info: img/app3cpu.png used on input line 98.
-(pdftex.def)             Requested size: 284.52383pt x 177.78607pt.
+(babel)             in language  on input line 104.
+ [26 <./img/app2cpu.png> <./img/app3geheugen.png>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 102.
-)
-(conclusie.tex
+(babel)             in language  on input line 105.
+) (conclusie.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
@@ -2519,70 +2494,79 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
- [28 <./img/app3geheugen.png> <./img/app3cpu.png>]
+ [27 <./img/app3cpu.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+ [28
+
+]
 Hoofdstuk 4.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
-[29
-
-]
+(babel)             in language  on input line 15.
+[29]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
  [30
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
  [31
 
 ]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 15.
  [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 37.
  [33])
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 91.
@@ -2622,12 +2606,6 @@ Package babel Info: Redefining dutch shorthand "~
 ] (bachproef-tin.lof
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <12> not available
 (Font)              Font shape `T1/pag/m/sl' tried instead on input line 9.
-
-Overfull \hbox (0.16194pt too wide) in paragraph at lines 33--33
-[]|\T1/pag/m/n/12 (-20) 3.7| []\T1/pag/m/sl/12 (-20) Re-sul-ta-ten ver-schil-le
-nde com-pres-sie-tech-nie-ken op CPU-gebruik fitness-
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2682,11 +2660,11 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 38939 strings out of 493333
- 709058 string characters out of 3139194
- 1299658 words of memory out of 3000000
- 41505 multiletter control sequences out of 15000+200000
- 71672 words of font info for 202 fonts, out of 3000000 for 9000
+ 38954 strings out of 493333
+ 709303 string characters out of 3139194
+ 1299519 words of memory out of 3000000
+ 41511 multiletter control sequences out of 15000+200000
+ 72795 words of font info for 208 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,59p,10422b,2065s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\ledou\App
@@ -2696,9 +2674,9 @@ m Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX
 e1/urw/avantgar/uagko8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
 utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bachproef-tin.pdf (41 pages, 1074805 bytes).
+Output written on bachproef-tin.pdf (41 pages, 1077283 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 38203 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 38179 words of extra memory for PDF output out of 42996 (max. 10000000)
 

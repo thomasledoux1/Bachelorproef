@@ -2310,6 +2310,8 @@
     <bcf:citekey order="7">googlereduceapksize</bcf:citekey>
     <bcf:citekey order="8">aapt</bcf:citekey>
     <bcf:citekey order="9">Google</bcf:citekey>
+    <bcf:citekey order="10">wearswarm</bcf:citekey>
+    <bcf:citekey order="11">weartimer</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="apa/global/" type="entry" sortscheme="apa" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
