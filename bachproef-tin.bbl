@@ -205,6 +205,50 @@
       \field{title}{Definition of: APK}
       \field{year}{2017}
     \endentry
+    \entry{googleio}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=79c3aec27ba147e25b191edafb0abd54}{%
+           family={Robison},
+           familyi={R\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{79c3aec27ba147e25b191edafb0abd54}
+      \strng{fullhash}{79c3aec27ba147e25b191edafb0abd54}
+      \strng{authornamehash}{79c3aec27ba147e25b191edafb0abd54}
+      \strng{authorfullhash}{79c3aec27ba147e25b191edafb0abd54}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.google.com/events/io/schedule/session/9bf77f55-afbe-e311-b297-00155d5066d7}}
+      \field{title}{Android Wear: The developer's perspective}
+      \field{year}{2014}
+    \endentry
+    \entry{googleios}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2e08ecbb666aebfe7ae6578fad19170d}{%
+           family={Singleton},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e08ecbb666aebfe7ae6578fad19170d}
+      \strng{fullhash}{2e08ecbb666aebfe7ae6578fad19170d}
+      \strng{authornamehash}{2e08ecbb666aebfe7ae6578fad19170d}
+      \strng{authorfullhash}{2e08ecbb666aebfe7ae6578fad19170d}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://googleblog.blogspot.be/2015/08/android-wear-now-works-with-iphones.html}}
+      \field{title}{Android Wear now works with iPhones}
+      \field{year}{2015}
+    \endentry
     \entry{Techradar}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=eb8557fa4da89143605495387f0d3212}{%

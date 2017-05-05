@@ -2304,14 +2304,16 @@
     <bcf:citekey order="1">IDC</bcf:citekey>
     <bcf:citekey order="2">OpenSourceInitiative</bcf:citekey>
     <bcf:citekey order="3">Dictionary</bcf:citekey>
-    <bcf:citekey order="4">Techradar</bcf:citekey>
-    <bcf:citekey order="5">Androidpay</bcf:citekey>
-    <bcf:citekey order="6">PCMag</bcf:citekey>
-    <bcf:citekey order="7">googlereduceapksize</bcf:citekey>
-    <bcf:citekey order="8">aapt</bcf:citekey>
-    <bcf:citekey order="9">Google</bcf:citekey>
-    <bcf:citekey order="10">wearswarm</bcf:citekey>
-    <bcf:citekey order="11">weartimer</bcf:citekey>
+    <bcf:citekey order="4">googleio</bcf:citekey>
+    <bcf:citekey order="5">googleios</bcf:citekey>
+    <bcf:citekey order="6">Techradar</bcf:citekey>
+    <bcf:citekey order="7">Androidpay</bcf:citekey>
+    <bcf:citekey order="8">PCMag</bcf:citekey>
+    <bcf:citekey order="9">googlereduceapksize</bcf:citekey>
+    <bcf:citekey order="10">aapt</bcf:citekey>
+    <bcf:citekey order="11">Google</bcf:citekey>
+    <bcf:citekey order="12">wearswarm</bcf:citekey>
+    <bcf:citekey order="13">weartimer</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="apa/global/" type="entry" sortscheme="apa" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
